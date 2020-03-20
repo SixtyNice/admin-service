@@ -26,10 +26,10 @@ public class SecurityServerFilter implements Filter {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         HttpSession session = request.getSession(false);
-        String login = (String) session.getAttribute("login");
+        Boolean isAuthorized = (Boolean) session.getAttribute("authorized");
 
 
-        if (login != null) {
+        if (isAuthorized) {
 
             String path = request.getContextPath() + "/";
             response.sendRedirect(path);

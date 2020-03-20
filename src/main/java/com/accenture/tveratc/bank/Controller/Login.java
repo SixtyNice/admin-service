@@ -30,17 +30,10 @@ public class Login extends HttpServlet {
         if (LoginDAO.validate(login, password)) {
             session.setAttribute("login", login);
             session.setAttribute("authorized", true);
-//            String path = request.getContextPath() + "/";
-//            response.sendRedirect(path);
-//
 
+        } else {
+            session.setAttribute("authorized", false);
         }
-
-
-//        } else {
-//            String path = request.getContextPath() + "/login.html";
-//            response.sendRedirect(path);
-//        }
 
 
     }
