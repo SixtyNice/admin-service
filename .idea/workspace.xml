@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eca8dc10-7e21-4935-8268-b4f7ab89537b" name="Default Changelist" comment="" />
+    <list default="true" id="eca8dc10-7e21-4935-8268-b4f7ab89537b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Controller/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Controller/RootServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Controller/RootServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Model/LoginDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Model/LoginDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/accenture/tveratc/bank/Controller/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/accenture/tveratc/bank/Controller/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/accenture/tveratc/bank/Controller/RootServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/accenture/tveratc/bank/Controller/RootServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/accenture/tveratc/bank/Model/LoginDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/accenture/tveratc/bank/Model/LoginDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/accenture/tveratc/bank/entity/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/accenture/tveratc/bank/entity/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +34,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,17 +45,25 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZFulHxVLiDfJTpQZc0xh4gPhfy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/participant" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\admin-service\src\main\webapp" />
+      <recent name="C:\Projects\admin-service\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="admin-service [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
@@ -86,34 +116,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="391" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1584523731275" />
-    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1584448439903">
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1584627003815">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584448439903" />
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584627003815" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584625206103">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1584625206103" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1584541110498">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584541110498" />
-    <state width="1237" height="248" key="GridCell.Tab.0.bottom" timestamp="1584618911882">
+    <state width="1237" height="256" key="GridCell.Tab.0.bottom" timestamp="1584689383010">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="248" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584618911882" />
-    <state width="1237" height="248" key="GridCell.Tab.0.center" timestamp="1584618911881">
+    <state width="1237" height="256" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584689383010" />
+    <state width="1237" height="256" key="GridCell.Tab.0.center" timestamp="1584689383010">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="248" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584618911881" />
-    <state width="1237" height="248" key="GridCell.Tab.0.left" timestamp="1584618911881">
+    <state width="1237" height="256" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584689383010" />
+    <state width="1237" height="256" key="GridCell.Tab.0.left" timestamp="1584689383010">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="248" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584618911881" />
-    <state width="1237" height="248" key="GridCell.Tab.0.right" timestamp="1584618911881">
+    <state width="1237" height="256" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584689383010" />
+    <state width="1237" height="256" key="GridCell.Tab.0.right" timestamp="1584689383010">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="248" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584618911881" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1584542202130">
+    <state width="1237" height="256" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584689383010" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1584624942048">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584542202130" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584624942048" />
+    <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584620540291">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1584620540291" />
+    <state x="109" y="77" width="1062" height="564" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584687657520">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="109" y="77" width="1062" height="564" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1584687657520" />
     <state x="91" y="36" key="new project wizard" timestamp="1584525596203">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -122,5 +164,27 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1584602223040" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/SecurityFilter/SecurityServerFilter.java</url>
+          <line>23</line>
+          <properties class="com.accenture.tveratc.bank.SecurityFilter.SecurityServerFilter" method="doFilter">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Controller/Login.java</url>
+          <line>20</line>
+          <properties class="com.accenture.tveratc.bank.Controller.Login" method="doPost">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

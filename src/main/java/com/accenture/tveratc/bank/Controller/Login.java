@@ -13,36 +13,35 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/loginServlet")
+@WebServlet("/login")
 public class Login extends HttpServlet {
 
 
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        response.setContentType("text/html");
-//        try(PrintWriter send = response.getWriter()){
-//            send.println("login");
-//        }
-
-    }
-
-    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        PrintWriter send = response.getWriter();
+
 
         String login = request.getParameter("login");
         String password = request.getParameter("password");
 
-        HttpSession session = request.getSession();
-
-        session.setAttribute("login", login);
+        HttpSession session = request.getSession(false);
 
         if (LoginDAO.validate(login, password)) {
-            send.println(login + password);
-        } else {
-            send.println("Wrong");
+            session.setAttribute("login", login);
+            session.setAttribute("authorized", true);
+//            String path = request.getContextPath() + "/";
+//            response.sendRedirect(path);
+//
+
         }
-        send.close();
+
+
+//        } else {
+//            String path = request.getContextPath() + "/login.html";
+//            response.sendRedirect(path);
+//        }
+
+
     }
 }

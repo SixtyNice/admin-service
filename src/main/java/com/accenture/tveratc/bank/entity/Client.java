@@ -3,7 +3,7 @@ package com.accenture.tveratc.bank.entity;
 import java.util.UUID;
 
 public class Client {
-    private UUID ID;
+    private UUID id;
     private String login;
     private String password;
     private String name;
@@ -11,8 +11,8 @@ public class Client {
     private String middleName;
     private String role;
 
-    public Client(UUID ID, String login, String password, String name, String lastName, String middleName, String role) {
-        this.ID = ID;
+    public Client(UUID id, String login, String password, String name, String lastName, String middleName, String role) {
+        this.id = id;
         this.login = login;
         this.password = password;
         this.name = name;
@@ -21,12 +21,12 @@ public class Client {
         this.role = role;
     }
 
-    public UUID getID() {
-        return ID;
+    public UUID getId() {
+        return id;
     }
 
-    public void setID(UUID ID) {
-        this.ID = ID;
+    public void setId(UUID id) {
+        this.id = id;
     }
 
     public String getLogin() {
