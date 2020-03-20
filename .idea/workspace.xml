@@ -6,8 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Controller/RootServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Controller/RootServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/accenture/tveratc/bank/Controller/RootServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/accenture/tveratc/bank/Controller/RootServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,22 +115,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584541110498" />
-    <state width="1237" height="9" key="GridCell.Tab.0.bottom" timestamp="1584702089000">
+    <state width="1237" height="223" key="GridCell.Tab.0.bottom" timestamp="1584702201675">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="9" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584702089000" />
-    <state width="1237" height="9" key="GridCell.Tab.0.center" timestamp="1584702089000">
+    <state width="1237" height="223" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584702201675" />
+    <state width="1237" height="223" key="GridCell.Tab.0.center" timestamp="1584702201675">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="9" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584702089000" />
-    <state width="1237" height="9" key="GridCell.Tab.0.left" timestamp="1584702089000">
+    <state width="1237" height="223" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584702201675" />
+    <state width="1237" height="223" key="GridCell.Tab.0.left" timestamp="1584702201674">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="9" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584702089000" />
-    <state width="1237" height="9" key="GridCell.Tab.0.right" timestamp="1584702089000">
+    <state width="1237" height="223" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584702201674" />
+    <state width="1237" height="223" key="GridCell.Tab.0.right" timestamp="1584702201675">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="9" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584702089000" />
+    <state width="1237" height="223" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584702201675" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1584624942048">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
