@@ -1,6 +1,0 @@
-com\accenture\tveratc\bank\Controller\RootServlet.class
-com\accenture\tveratc\bank\entity\Client.class
-com\accenture\tveratc\bank\Controller\Login.class
-com\accenture\tveratc\bank\Model\LoginDAO.class
-com\accenture\tveratc\bank\DB\ConnectionDB\ConnectionDB.class
-com\accenture\tveratc\bank\SecurityFilter\SecurityServerFilter.class
