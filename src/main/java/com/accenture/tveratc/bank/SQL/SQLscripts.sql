@@ -1,4 +1,4 @@
---create table
+--create table client
 
 create TABLE "CLIENT"
    (	"ID" VARCHAR2(45) PRIMARY KEY,
@@ -10,6 +10,16 @@ create TABLE "CLIENT"
     "ROLE" VARCHAR2(45 CHAR) NOT NULL
    );
 
+   --create table global settings
+   create TABLE "GLOBAL_SETTING"
+      (	"code" VARCHAR2(45 CHAR) PRIMARY KEY,
+   	"value" VARCHAR2(45 CHAR) NOT NULL,
+      );
+
+
 
 --create my account
 insert into CLIENT (ID, LOGIN,PASSWORD,NAME,LAST_NAME,MIDDLE_NAME,ROLE) values ('0','dmitriy.skibin','123','Dima','Skibin','Vova','Employee');
+--create field for global-setting
+insert into GLOBAL_SETTING ("CODE","VALUE") values ('DEPOSIT_RATE','6.5');
+
