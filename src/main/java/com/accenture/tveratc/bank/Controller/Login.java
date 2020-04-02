@@ -2,7 +2,7 @@ package com.accenture.tveratc.bank.Controller;
 
 import com.accenture.tveratc.bank.Model.LoginDAO;
 
-import javax.persistence.TypedQuery;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

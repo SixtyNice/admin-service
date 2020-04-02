@@ -1,5 +1,7 @@
 package com.accenture.tveratc.bank.entity;
 
+import jdk.nashorn.internal.objects.annotations.Getter;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;

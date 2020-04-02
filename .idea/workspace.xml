@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eca8dc10-7e21-4935-8268-b4f7ab89537b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Controller/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Controller/LoginControllerJPA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Model/GlobalSettingDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Model/GlobalSettingDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Model/LoginJPA.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/SQL/SQLscripts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/SQL/SQLscripts.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/entity/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/entity/GlobalSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/entity/GlobalSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,22 +120,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584541110498" />
-    <state width="1237" height="259" key="GridCell.Tab.0.bottom" timestamp="1585739110465">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585823782498">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585739110465" />
-    <state width="1237" height="259" key="GridCell.Tab.0.center" timestamp="1585739110465">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585823782498" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585823782497">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585739110465" />
-    <state width="1237" height="259" key="GridCell.Tab.0.left" timestamp="1585739110464">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585823782497" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585823782497">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585739110464" />
-    <state width="1237" height="259" key="GridCell.Tab.0.right" timestamp="1585739110465">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585823782497" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585823782498">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585739110465" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585823782498" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1584968288943">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
