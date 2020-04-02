@@ -11,46 +11,46 @@ public class GlobalSettingDAO {
 
 
     public GlobalSetting getCode(String code) {
-        EntityManager em = ENTITY_MANAGER_FACTORY.createEntityManager();
+        EntityManager entityManager = ENTITY_MANAGER_FACTORY.createEntityManager();
         String query = "SELECT c FROM GlobalSetting c WHERE c.code=:code";
 
-        TypedQuery<GlobalSetting> tq = em.createQuery(query, GlobalSetting.class);
-        tq.setParameter("code", code);
+        TypedQuery<GlobalSetting> entityManagerQuery = entityManager.createQuery(query, GlobalSetting.class);
+        entityManagerQuery.setParameter("code", code);
 
         GlobalSetting globalSetting = null;
 
         try {
-            globalSetting = tq.getSingleResult();
+            globalSetting = entityManagerQuery.getSingleResult();
             globalSetting = new GlobalSetting(globalSetting.getCode(), globalSetting.getValue());
         } catch (NoResultException ex) {
             ex.printStackTrace();
 
         } finally {
-            em.close();
+            entityManager.close();
         }
         return globalSetting;
     }
 
 
     public void updateValue(String code, String value) {
-        EntityManager em = ENTITY_MANAGER_FACTORY.createEntityManager();
-        EntityTransaction et = null;
+        EntityManager entityManager = ENTITY_MANAGER_FACTORY.createEntityManager();
+        EntityTransaction transaction = null;
         GlobalSetting globalSetting = null;
 
         try {
-            et = em.getTransaction();
-            et.begin();
-            globalSetting = em.find(GlobalSetting.class, code);
-            globalSetting.setValue(value);
-            em.persist(globalSetting);
-            et.commit();
+            transaction = entityManager.getTransaction();
+            transaction.begin();
+            globalSetting = entityManager.find(GlobalSetting.class, code);
+            globalSetting.setValue(value);// ?
+            entityManager.persist(globalSetting);
+            transaction.commit();
         } catch (Exception e) {
-            if (et != null) {
-                et.rollback();
+            if (transaction != null) {
+                transaction.rollback();
             }
             e.printStackTrace();
         } finally {
-            em.close();
+            entityManager.close();
         }
     }
 
@@ -59,31 +59,31 @@ public class GlobalSettingDAO {
         public boolean initializeDefaultFields() {
             String code = "DEPOSIT_RATE";
             String value = "12";
-            EntityManager em = ENTITY_MANAGER_FACTORY.createEntityManager();
-            EntityTransaction et = null;
+            EntityManager entityManager = ENTITY_MANAGER_FACTORY.createEntityManager();
+            EntityTransaction entityTransaction = null;
 
             GlobalSetting globalSetting = null;
 
             try {
-                et = em.getTransaction();
-                et.begin();
-                globalSetting = em.find(GlobalSetting.class, code);
+                entityTransaction = entityManager.getTransaction();
+                entityTransaction.begin();
+                globalSetting = entityManager.find(GlobalSetting.class, code);
                 if (globalSetting == null) {
                     globalSetting = new GlobalSetting();
                     globalSetting.setCode(code);
                     globalSetting.setValue(value);
                 }
-                em.persist(globalSetting);
-                et.commit();
+                entityManager.persist(globalSetting);
+                entityTransaction.commit();
 
             } catch (Exception e) {
 
-                if (et != null) {
-                    et.rollback();
+                if (entityTransaction != null) {
+                    entityTransaction.rollback();
                 }
                 e.printStackTrace();
             } finally {
-                em.close();
+                entityManager.close();
             }
             return true;
         }
