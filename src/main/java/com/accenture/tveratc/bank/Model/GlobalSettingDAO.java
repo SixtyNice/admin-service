@@ -65,6 +65,7 @@ public class GlobalSettingDAO {
             GlobalSetting globalSetting = null;
 
             try {
+                
                 entityTransaction = entityManager.getTransaction();
                 entityTransaction.begin();
                 globalSetting = entityManager.find(GlobalSetting.class, code);

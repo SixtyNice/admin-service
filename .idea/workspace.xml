@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="eca8dc10-7e21-4935-8268-b4f7ab89537b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/DB/ConnectionDB/ConnectionDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Model/GlobalSettingDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Model/GlobalSettingDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/SQL/SQLscripts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SQL/SQLscripts.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/SecurityFilter/SecurityServerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/accenture/tveratc/bank/Controller/SecurityServerFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +50,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Projects\admin-service\src\main\webapp" />
       <recent name="C:\Projects\admin-service\src\main\resources" />
+      <recent name="C:\Projects\admin-service\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager">
@@ -113,22 +117,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584541110498" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585827826757">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585834729325">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585827826757" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585827826757">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585834729325" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585834729325">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585827826757" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585827826757">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585834729325" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585834729325">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585827826757" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585827826757">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585834729325" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585834729325">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585827826757" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585834729325" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1584968288943">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -1,4 +1,4 @@
-package com.accenture.tveratc.bank.SecurityFilter;
+package com.accenture.tveratc.bank.Controller;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
