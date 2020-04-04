@@ -3,6 +3,7 @@ package com.accenture.tveratc.bank.Model;
 import com.accenture.tveratc.bank.entity.Client;
 
 import java.sql.*;
+import java.util.Properties;
 import java.util.UUID;
 
 
@@ -13,13 +14,17 @@ public class LoginDAO {
 
     public static boolean validate(String login, String password) {
         boolean status = false;
+
+
         Connection con = null;
+        Properties properties = new Properties();
+
         try {
-            String JDBC_DRIVER = "org.h2.Driver";
+            String JDBC_DRIVER =  properties.getProperty("db.driver");
             Class.forName(JDBC_DRIVER);
-            String passwordDB = "";
-            String usernameDB = "sa";
-            String JDBC_URI = "jdbc:h2:~/test";
+            String passwordDB = properties.getProperty("db.password");
+            String usernameDB = properties.getProperty("db.user");
+            String JDBC_URI = properties.getProperty("db.url");
             con = DriverManager.getConnection(JDBC_URI, usernameDB, passwordDB);
             PreparedStatement statement = con.prepareStatement("select * from CLIENT where LOGIN=? and PASSWORD=?");
             statement.setString(1, login);
